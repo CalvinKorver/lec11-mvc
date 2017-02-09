@@ -1,4 +1,8 @@
 "use strict";
+var $ = require("jquery");
+/**
+ * Our view depends on the model.
+ */
 var View = (function () {
     function View(game) {
         this.game = game;
